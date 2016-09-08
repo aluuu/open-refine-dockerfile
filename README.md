@@ -4,9 +4,9 @@ Based on [openjdk:7-jre-alpine](https://github.com/docker-library/openjdk/blob/5
 
 ## Quickstart
 
-`
+```
 docker pull aluuu/open-refine
 docker volume create --name refine-data
 docker run -d -p 3333:3333 -v refine-data:/var/lib/refine aluuu/open-refine:latest
 open http://127.0.0.1:3333
-`
+```
